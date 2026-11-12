@@ -1,4 +1,4 @@
-"""Fixed features, never fitted to labels. See IMPLEMENTATION_CN.md for conventions."""
+
 import math
 from collections import Counter
 import numpy as np

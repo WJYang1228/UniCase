@@ -1,4 +1,4 @@
-"""Inference only: load a packaged checkpoint and an actual contract JSON."""
+
 import argparse, hashlib, json, math
 from pathlib import Path
 import numpy as np

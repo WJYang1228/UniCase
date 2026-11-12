@@ -1,0 +1,35 @@
+{
+  "family": "ewc_head",
+  "role_cn": "冻结 paper_reference 编码器后重新训练的EWC分类头；对应跨域表WEB3条目",
+  "seed": 2028,
+  "kind": "ewc_head",
+  "checkpoint_sha256": "d302ac59de738a5fa417795bac5519e6bf01ff19a5267cc3590fd12ed63750a0",
+  "source_checkpoint_sha256": "2ff338972b4b3ddb315c7730e2848734fb5ca957ffb83e019dbb08e7860e7af7",
+  "dataset_samples_sha256": "4eae49c2312f988b3c95342a01fad8bdc4e77ec23cd30ec06670d78062953db6",
+  "config": null,
+  "selected_epoch": null,
+  "labels": {
+    "0": "benign",
+    "1": "fraud"
+  },
+  "decision_rule": "fraud iff score > 0; ties benign",
+  "reconstruction_not_original_dataset": true,
+  "contains_training_code": false,
+  "source_result_metrics_or_training_logs_packaged": false,
+  "encoder_checkpoint": "models/paper_reference/seed2028/model.pt",
+  "head_config": {
+    "input_dim": 128,
+    "num_classes": 2,
+    "hidden": 128,
+    "space_dim": 64,
+    "anchors": 8,
+    "dropout": 0.1,
+    "anchor_temperature": 0.2,
+    "epsilon": 1e-08
+  },
+  "conversion": "Removed fitting history from checkpoint; all state_dict tensors unchanged",
+  "supported_prefixes": [
+    50
+  ],
+  "classification_only": true
+}

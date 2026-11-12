@@ -1,0 +1,65 @@
+{
+  "contracts": 1276,
+  "chains": {
+    "bsc": 120,
+    "ethereum": 1156
+  },
+  "binary_labels": {
+    "0_benign": 638,
+    "1_fraud": 638
+  },
+  "subtypes": {
+    "Benign": 638,
+    "Minting Abuse": 151,
+    "Fee Abuse": 193,
+    "Honeypot": 142,
+    "Rug Pull": 87,
+    "Selling Restrictions": 65
+  },
+  "split_counts": {
+    "train": 764,
+    "test": 256,
+    "val": 256
+  },
+  "chain_by_binary_label": {
+    "bsc/0": 106,
+    "bsc/1": 14,
+    "ethereum/0": 532,
+    "ethereum/1": 624
+  },
+  "prefix_samples": 3828,
+  "prefix_percentages": [
+    5,
+    20,
+    50
+  ],
+  "window_blocks": 200,
+  "window": "deployment through deployment+199 inclusive",
+  "retained_transfer_events": 404425,
+  "sum_per_contract_distinct_transactions": 238626,
+  "globally_distinct_chain_transaction_pairs": 238609,
+  "min_events": 10,
+  "max_events": 16552,
+  "min_distinct_transactions": 10,
+  "max_distinct_transactions": 15118,
+  "deployment_time_utc": [
+    "2017-04-18T23:11:15+00:00",
+    "2025-06-19T19:06:47+00:00"
+  ],
+  "retained_event_time_utc": [
+    "2017-04-18T23:47:46+00:00",
+    "2025-06-19T19:45:59+00:00"
+  ],
+  "bytecode_groups": 1133,
+  "cross_split_identical_bytecode_groups": 0,
+  "collection_time_scope": "Collection timestamps are not present per event; event timestamps are blockchain times, not crawl times.",
+  "label_provenance": {
+    "binary_labels": "inherited candidate-source labels, not independently reaudited here",
+    "subtype_quota_without_trait_verification": 340,
+    "five_class_results": "strata under supplied assignments; not validated subtype recognition evidence",
+    "harm_annotations_available": false
+  },
+  "source_zip_sha256": "89026dc5485f842fbfebebe60c41ef123ea1d71393b691c15b212c803b97178c",
+  "samples_sha256": "4eae49c2312f988b3c95342a01fad8bdc4e77ec23cd30ec06670d78062953db6",
+  "verification": "1276 contract files checked against manifest, event count, unique transaction count, ordering, H200 bounds and runtime bytecode hashes"
+}

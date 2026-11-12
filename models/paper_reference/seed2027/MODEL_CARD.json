@@ -1,0 +1,50 @@
+{
+  "family": "paper_reference",
+  "role_cn": "较早的完整方法参照检查点，30 epoch训练版本",
+  "seed": 2027,
+  "kind": "full",
+  "checkpoint_sha256": "048973c033b511330e5aa11a799dec4729ccb38fc2e6aff8e2da671243f074dd",
+  "source_checkpoint_sha256": "048973c033b511330e5aa11a799dec4729ccb38fc2e6aff8e2da671243f074dd",
+  "dataset_samples_sha256": "4eae49c2312f988b3c95342a01fad8bdc4e77ec23cd30ec06670d78062953db6",
+  "config": {
+    "static_dim": 264,
+    "event_dim": 16,
+    "hidden": 128,
+    "projection_dim": 64,
+    "space_dim": 64,
+    "transformer_layers": 2,
+    "attention_heads": 4,
+    "dropout": 0.1,
+    "anchors": 8,
+    "anchor_temperature": 0.2,
+    "contrast_temperature": 0.1,
+    "scale_min": 0.25,
+    "scale_max": 4.0,
+    "epsilon": 1e-08,
+    "prediction_weight": 0.1,
+    "sd_weight": 1.0,
+    "ds_weight": 1.0,
+    "rank_weight": 0.0,
+    "rank_margin": 0.15,
+    "anchor_weight": 0.0,
+    "classifier": "dual",
+    "shared_mapping": false,
+    "normalize_anchor_scale": true,
+    "variant": "full"
+  },
+  "selected_epoch": 4,
+  "labels": {
+    "0": "benign",
+    "1": "fraud"
+  },
+  "decision_rule": "fraud iff score > 0; ties benign",
+  "reconstruction_not_original_dataset": true,
+  "contains_training_code": false,
+  "source_result_metrics_or_training_logs_packaged": false,
+  "supported_prefixes": [
+    5,
+    20,
+    50
+  ],
+  "classification_only": false
+}

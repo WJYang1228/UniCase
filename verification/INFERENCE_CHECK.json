@@ -1,0 +1,126 @@
+{
+  "checks": [
+    {
+      "family": "selected_optimized",
+      "seed": 2026,
+      "samples": 6,
+      "finite": true,
+      "reference": "original project model and feature pipeline",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "family": "paper_reference",
+      "seed": 2026,
+      "samples": 6,
+      "finite": true,
+      "reference": "original project model and feature pipeline",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "family": "ewc_head",
+      "seed": 2026,
+      "samples": 2,
+      "finite": true,
+      "reference": "original project model and feature pipeline",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "family": "core_reference",
+      "seed": 2026,
+      "samples": 6,
+      "finite": true,
+      "reference": "original saved seven-sample independent inference fixture",
+      "max_absolute_difference": 1.430511474609375e-06
+    },
+    {
+      "family": "core_revision_pc4",
+      "seed": 2026,
+      "samples": 6,
+      "finite": true,
+      "reference": "original saved seven-sample independent inference fixture",
+      "max_absolute_difference": 9.5367431640625e-07
+    },
+    {
+      "family": "selected_optimized",
+      "seed": 2027,
+      "samples": 6,
+      "finite": true,
+      "reference": "original project model and feature pipeline",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "family": "paper_reference",
+      "seed": 2027,
+      "samples": 6,
+      "finite": true,
+      "reference": "original project model and feature pipeline",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "family": "ewc_head",
+      "seed": 2027,
+      "samples": 2,
+      "finite": true,
+      "reference": "original project model and feature pipeline",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "family": "core_reference",
+      "seed": 2027,
+      "samples": 6,
+      "finite": true,
+      "reference": "original saved seven-sample independent inference fixture",
+      "max_absolute_difference": 2.384185791015625e-06
+    },
+    {
+      "family": "core_revision_pc4",
+      "seed": 2027,
+      "samples": 6,
+      "finite": true,
+      "reference": "original saved seven-sample independent inference fixture",
+      "max_absolute_difference": 2.384185791015625e-06
+    },
+    {
+      "family": "selected_optimized",
+      "seed": 2028,
+      "samples": 6,
+      "finite": true,
+      "reference": "original project model and feature pipeline",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "family": "paper_reference",
+      "seed": 2028,
+      "samples": 6,
+      "finite": true,
+      "reference": "original project model and feature pipeline",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "family": "ewc_head",
+      "seed": 2028,
+      "samples": 2,
+      "finite": true,
+      "reference": "original project model and feature pipeline",
+      "max_absolute_difference": 0.0
+    },
+    {
+      "family": "core_reference",
+      "seed": 2028,
+      "samples": 6,
+      "finite": true,
+      "reference": "original saved seven-sample independent inference fixture",
+      "max_absolute_difference": 9.5367431640625e-07
+    },
+    {
+      "family": "core_revision_pc4",
+      "seed": 2028,
+      "samples": 6,
+      "finite": true,
+      "reference": "original saved seven-sample independent inference fixture",
+      "max_absolute_difference": 4.5299530029296875e-06
+    }
+  ],
+  "tolerance": 1e-05,
+  "training_performed": false
+}

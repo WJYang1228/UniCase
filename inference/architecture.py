@@ -1,8 +1,4 @@
-"""Standalone inference architecture. Requires torch and numpy, no training code.
 
-The checkpoint contains its full inference configuration and TRAIN normalization.
-Input tensors to forward are normalized. Predictor accepts raw feature arrays.
-"""
 import math
 from pathlib import Path
 import numpy as np

@@ -1,9 +1,4 @@
-"""Paper-faithful EWC head, with an explicit K-class extension.
 
-The shared input representation is frozen by the caller, not by this head.
-No ranking/anchor auxiliary loss and no clamp on the anchor-dispersion scale.
-For K=2, softmax(-alpha * distances)[:, 1] exactly recovers the paper sigmoid.
-"""
 from dataclasses import asdict, dataclass
 import math
 
